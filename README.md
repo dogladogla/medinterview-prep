@@ -12,6 +12,25 @@ so there is no signup trigger: a profile row is created on first sign-in (`lib/p
 
 Migrations are in `supabase/migrations/` and are applied in order.
 
+## Content
+All interview content lives as typed TypeScript in `content/` — the single source of truth:
+
+| File | What it holds |
+|---|---|
+| `content/categories.ts` | The 10 question categories |
+| `content/frameworks.ts` | 13 frameworks (steps, worked example, common mistakes) |
+| `content/reading.ts` | 21 reading-library summaries (original wording, with `lastVerified` dates) |
+| `content/universities.ts` | Oxford, Cambridge, Imperial, Manchester profiles |
+| `content/personas.ts` | AI interviewer personas (prompts live in `lib/ai/prompts`) |
+| `content/questions/*.ts` | 64 questions with scaffold, annotated exemplar, follow-ups, key points, pitfalls |
+
+To change content:
+1. Edit the relevant file in `content/`.
+2. Run `npm run seed:build`. It validates every field and cross-link, then regenerates `supabase/seed/*.sql`.
+3. Apply the regenerated files in number order (Supabase SQL editor, or ask Claude). Re-running is safe: rows upsert by slug.
+
+Time-sensitive facts (interview formats, legislation, NHS reorganisation) carry a `lastVerified` date — re-check them each admissions cycle.
+
 ## Run locally
 ```bash
 cp .env.example .env.local   # fill in the two Supabase values
@@ -27,7 +46,7 @@ Checks: `npm run typecheck`, `npm run lint`, `npm run build`.
 
 ## Milestones
 - [x] M1 Foundation: scaffold, auth, profiles, RLS, layout
-- [ ] M2 Content schema + seed
+- [x] M2 Content schema + seed
 - [ ] M3 Question bank + frameworks
 - [ ] M4 AI feedback
 - [ ] M5 Mock station
