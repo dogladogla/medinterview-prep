@@ -9,7 +9,7 @@ export const universities: University[] = [
     name: "University of Oxford",
     interviewFormats: ["oxbridge", "online", "panel"],
     overview:
-      "Oxford's standard-entry Medicine course (A100) is a six-year programme with a traditional structure: three pre-clinical years grounded in the medical sciences, leading to a BA, followed by three clinical years. Teaching combines lectures and practicals with the college tutorial system, where students meet a tutor in very small groups to discuss work, defend reasoning and be questioned closely. Shortlisting for interview uses academic record and the admissions test; shortlisted applicants are interviewed by more than one college.",
+      "Oxford's standard-entry Medicine course (A100) is a six-year programme with a traditional structure: three pre-clinical years grounded in the medical sciences, leading to a BA, followed by three clinical years. Teaching combines lectures and practicals with the college tutorial system, where students meet a tutor in very small groups to discuss work, defend reasoning and be questioned closely. Shortlisting for interview uses academic record and the UCAT; shortlisted applicants are interviewed by more than one college.",
     interviewFormatDetail:
       "Interviews are held online in December. Shortlisted applicants are typically interviewed at two colleges — their preferred (or allocated) college and a second one — with a mix of academic interviewers and at least one practising clinician involved across the process. Each interview resembles a short tutorial: a scientific problem, a graph or data, an unfamiliar scenario, or an ethical question explored in depth with follow-up questions. Interviewers are not looking for memorised knowledge but for how you reason with new information.",
     interviewStyleNotes:
@@ -54,7 +54,7 @@ export const universities: University[] = [
     name: "University of Cambridge",
     interviewFormats: ["oxbridge", "panel"],
     overview:
-      "Cambridge's standard Medicine course is a six-year programme with three pre-clinical years of medical sciences — the third year a specialised Part II study for a BA — followed by three clinical years. Teaching combines lectures and practicals with the college supervision system, where students discuss work in very small groups. Applications are made through a college, and interviews are arranged by colleges.",
+      "Cambridge's standard Medicine course is a six-year programme with three pre-clinical years of medical sciences — the third year a specialised Part II study for a BA — followed by three clinical years. Teaching combines lectures and practicals with the college supervision system, where students discuss work in very small groups. Applications are made through a college, and interviews are arranged by colleges. Applicants must take the UCAT.",
     interviewFormatDetail:
       "Most applicants have one or two interviews, usually totalling around 35 minutes to an hour, with two or three interviewers. For 2027 entry, Medicine interviews are held in person at most colleges, with exceptions depending on the college and the applicant's location. Some colleges send material to read before the interview. Interviews are subject-focused: applying scientific knowledge to new problems, discussing personal statement topics, and exploring vocational aspects of medicine.",
     interviewStyleNotes:
@@ -99,7 +99,7 @@ export const universities: University[] = [
     overview:
       "Imperial's MBBS/BSc Medicine (A100) is a six-year course with an integrated BSc, reflecting the school's strong emphasis on research and science. Clinical placements are based across a large network of London hospitals and community settings, giving exposure to a diverse urban population. Interview performance carries considerable weight in offer decisions.",
     interviewFormatDetail:
-      "For 2026 entry Imperial used a six-station multiple mini-interview (MMI), held in person. Stations assessed teamwork and leadership, motivation to study medicine, understanding of the role of a doctor, empathy and breaking bad news, ethics scenarios, and data interpretation. Each station was scored for content (out of 6) and communication (out of 4), and combined scores were compared against thresholds to decide offers.",
+      "Imperial uses a multiple mini-interview (MMI); for 2026 entry there were six stations, with about five minutes to answer the questions at each. Stations cover teamwork and leadership, motivation to study medicine, understanding of the role of a doctor, empathy and breaking bad news, ethics and values scenarios, and data interpretation. Each station is scored for content (out of 6) and communication (out of 4), and combined scores are compared against thresholds to decide offers. Your invitation will confirm whether the MMI is in person or online. Shortlisting uses the UCAT and academic record.",
     interviewStyleNotes:
       "Structured MMI station. Keep to the station brief, one scenario at a time, with a neutral, professional manner. Assess both content and communication — structure, clarity, empathy and responsiveness. Include realistic data or scenario details and one or two focused follow-up questions. Do not give feedback during the station.",
     whatTheyLookFor: [

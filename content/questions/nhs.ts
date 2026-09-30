@@ -37,7 +37,7 @@ export const nhsQuestions: Question[] = [
       "Listing without choosing.",
       "No example.",
     ],
-    frameworks: [{ slug: "balanced-argument" }],
+    frameworks: [{ slug: "balanced-argument", primary: true }],
     reading: ["nhs-constitution", "marmot-review"],
     tags: ["nhs-values", "nhs-constitution", "inequality"],
   },
@@ -161,7 +161,7 @@ export const nhsQuestions: Question[] = [
       "Vague answers ('treat everyone equally').",
       "Inaccurate statistics.",
     ],
-    frameworks: [{ slug: "balanced-argument" }],
+    frameworks: [{ slug: "balanced-argument", primary: true }],
     reading: ["marmot-review", "nhs-constitution", "ten-year-health-plan"],
     tags: ["inequality", "public-health", "social-determinants"],
   },
@@ -266,7 +266,7 @@ export const nhsQuestions: Question[] = [
       { step: "Conclude", guidance: "Clear roles and supervision protect patients and colleagues alike; respect for PAs as team members." },
     ],
     exemplar:
-      "Physician associates were introduced to support doctors — taking histories, examining patients and helping with investigations — under a doctor's supervision. The number grew quickly, and concerns emerged, particularly from doctors and some patients' families, about whether patients understood they weren't being seen by a doctor, how well PAs were supervised, whether they were seeing patients with undiagnosed problems, and whether they were taking training opportunities from resident doctors.\n\nIn 2025, the government commissioned an independent review led by Professor Gillian Leng. It didn't find convincing evidence to scrap the role, but recommended renaming them 'physician assistants' to make clear they're not doctors, that they shouldn't see undifferentiated patients except within defined national protocols, and that each should have a named supervising doctor. The government accepted the recommendations.\n\nMy view is that the debate was really about clarity and safety rather than the individuals in these roles. Having more people in the team can help — PAs often provide continuity on a ward where doctors rotate. But patients have a right to know who's treating them, and diagnosing an undifferentiated problem is the core of a doctor's long training. Clear boundaries and supervision protect patients and PAs themselves.\n\nI'd also want to make sure the debate never became disrespectful to colleagues who are doing the job they were employed to do.",
+      "Physician associates were introduced to support doctors — taking histories, examining patients and helping with investigations — under a doctor's supervision. The number grew quickly, and concerns emerged, particularly from doctors and some patients' families, about whether patients understood they weren't being seen by a doctor, how well PAs were supervised, whether they were seeing patients with undiagnosed problems, and whether they were taking training opportunities from resident doctors.\n\nIn late 2024 the government commissioned an independent review, led by Professor Gillian Leng, which reported in July 2025. It didn't find convincing evidence to scrap the role, but recommended renaming them 'physician assistants' to make clear they're not doctors, that they shouldn't see undifferentiated patients except within defined national protocols, and that each should have a named supervising doctor. The government accepted the recommendations.\n\nMy view is that the debate was really about clarity and safety rather than the individuals in these roles. Having more people in the team can help — PAs often provide continuity on a ward where doctors rotate. But patients have a right to know who's treating them, and diagnosing an undifferentiated problem is the core of a doctor's long training. Clear boundaries and supervision protect patients and PAs themselves.\n\nI'd also want to make sure the debate never became disrespectful to colleagues who are doing the job they were employed to do.",
     annotations: [
       { excerpt: "under a doctor's supervision", note: "Accurate framing from the start." },
       { excerpt: "It didn't find convincing evidence to scrap the role", note: "Accurate account of the review's conclusions." },

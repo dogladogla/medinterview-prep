@@ -388,6 +388,7 @@ export const ethicsQuestions: Question[] = [
       "Explore and acknowledge the family's concerns.",
       "Ask the patient how much she wants to know.",
       "The right not to know is the patient's, not the family's.",
+      "GMC guidance allows withholding information only in rare cases where sharing it would cause the patient serious harm — not merely upset or distress.",
       "Break news sensitively (SPIKES).",
     ],
     pitfalls: [

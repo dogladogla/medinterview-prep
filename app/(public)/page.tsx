@@ -27,9 +27,15 @@ const PILLARS = [
   },
 ] as const;
 
-export default function HomePage() {
+export default async function HomePage({ searchParams }: { searchParams: Promise<{ deleted?: string }> }) {
+  const { deleted } = await searchParams;
   return (
     <div className="space-y-12">
+      {deleted === "1" && (
+        <p role="status" className="bg-accent rounded-lg p-3 text-sm">
+          Your practice data has been deleted and you&apos;ve been signed out.
+        </p>
+      )}
       <section className="max-w-2xl space-y-5 pt-6">
         <p className="text-primary text-sm font-medium">Oxford · Cambridge · Imperial · Manchester</p>
         <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">

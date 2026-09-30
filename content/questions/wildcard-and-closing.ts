@@ -148,7 +148,7 @@ export const wildcardQuestions: Question[] = [
       { step: "Acknowledge alternatives", guidance: "Why others are strong contenders and why you still choose yours." },
     ],
     exemplar:
-      "I think it depends on what we mean by 'important' — lives saved, or how much it enabled everything else. By both measures, I'd choose germ theory: the understanding that specific microorganisms cause specific diseases.\n\nBefore that, many people believed disease was caused by bad air or imbalance in the body, which made prevention and treatment largely guesswork. Work by people like Pasteur and Koch in the 19th century showed microbes caused disease, and that changed everything that came after. It explained why John Snow's removal of the Broad Street pump handle stopped a cholera outbreak, and it justified sanitation and clean water, which probably saved more lives than any single treatment. It underpins antiseptic surgery, vaccination as a science, and the search for antibiotics.\n\nThe obvious rivals are antibiotics and vaccines, which have directly saved enormous numbers of lives. But I'd see them as consequences of germ theory rather than alternatives to it.\n\nIf I had to pick something less obvious, I'd mention the randomised controlled trial, because it gave us a way to find out which treatments actually work — which is arguably just as foundational.",
+      "I think it depends on what we mean by 'important' — lives saved, or how much it enabled everything else. By both measures, I'd choose germ theory: the understanding that specific microorganisms cause specific diseases.\n\nBefore that, many people believed disease was caused by bad air or imbalance in the body, which made prevention and treatment largely guesswork. Work by people like Pasteur and Koch in the 19th century showed microbes caused disease, and that changed everything that came after. It made sense of earlier observations like John Snow's in 1854, linking cholera deaths to a contaminated water pump in Soho, and it justified sanitation and clean water, which probably saved more lives than any single treatment. It underpins antiseptic surgery, vaccination as a science, and the search for antibiotics.\n\nThe obvious rivals are antibiotics and vaccines, which have directly saved enormous numbers of lives. But I'd see them as consequences of germ theory rather than alternatives to it.\n\nIf I had to pick something less obvious, I'd mention the randomised controlled trial, because it gave us a way to find out which treatments actually work — which is arguably just as foundational.",
     annotations: [
       { excerpt: "it depends on what we mean by 'important'", note: "Defines criteria before answering." },
       { excerpt: "I'd see them as consequences of germ theory", note: "Handles rivals with an argument rather than dismissing them." },
@@ -205,7 +205,7 @@ export const wildcardQuestions: Question[] = [
       "A flaw that suggests unprofessionalism in clinical settings, without reflection.",
       "Sounding rehearsed.",
     ],
-    frameworks: [{ slug: "star" }],
+    frameworks: [{ slug: "star", primary: true }],
     reading: [],
     tags: ["wildcard", "self-awareness"],
   },

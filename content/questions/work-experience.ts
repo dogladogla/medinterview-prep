@@ -188,7 +188,7 @@ export const workExperienceQuestions: Question[] = [
     annotations: [
       { excerpt: "every day he asked for the window to be opened", note: "A humanising, non-identifying detail that makes the story vivid." },
       { excerpt: "asked him what 'home' would mean to him", note: "Observes a real communication skill — exploring expectations." },
-      { excerpt: "I felt sad… but I also felt", note: "Emotional honesty and maturity." },
+      { excerpt: "I also felt something I didn't expect", note: "Emotional honesty and maturity." },
       { excerpt: "It changed how I think about the goal of medicine", note: "Insight connected to palliative care — link to Being Mortal if asked what you've read." },
     ],
     keyPoints: [

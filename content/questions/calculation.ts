@@ -29,7 +29,7 @@ export const calculationQuestions: Question[] = [
       { excerpt: "I'll write down what I know first", note: "Organises information before calculating — reduces errors." },
       { excerpt: "10 times 15 is 150, 8 times 15 is 120", note: "Breaks mental arithmetic into manageable steps aloud." },
       { excerpt: "To check: 11.25 times 24", note: "Reverse-checks the answer — excellent safety habit." },
-      { excerpt: "I'd want to check exactly what was given and when", note: "Moves beyond arithmetic to clinical safety thinking." },
+      { excerpt: "check exactly what was given and when", note: "Moves beyond arithmetic to clinical safety thinking." },
     ],
     keyPoints: [
       "Dose 270 mg.",

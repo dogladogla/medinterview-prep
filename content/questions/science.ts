@@ -122,7 +122,7 @@ export const scienceQuestions: Question[] = [
       "Implying bacteria 'decide' to adapt.",
       "Only one solution.",
     ],
-    frameworks: [{ slug: "thinking-aloud" }, { slug: "chunk-and-check" }],
+    frameworks: [{ slug: "thinking-aloud", primary: true }, { slug: "chunk-and-check" }],
     reading: [],
     tags: ["microbiology", "evolution", "public-health"],
   },
