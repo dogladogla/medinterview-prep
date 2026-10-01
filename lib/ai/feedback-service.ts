@@ -58,7 +58,6 @@ export async function generateFeedbackForAnswer(supabase: ServerSupabase, answer
       toolDescription: "Submit structured rubric feedback on the student's interview answer.",
       schema: FeedbackSchema,
       maxTokens: 2500,
-      temperature: 0.3,
     });
     feedback = res.data;
     model = res.model;

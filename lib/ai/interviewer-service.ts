@@ -101,8 +101,7 @@ async function interviewerTurn(opts: {
     toolName: "interviewer_turn",
     toolDescription: "Say your next line in the interview.",
     schema: InterviewerTurnSchema,
-    maxTokens: 700,
-    temperature: 0.7,
+    maxTokens: 1500,
   });
   // Server-side limits win over the model's choice.
   const ends = n >= INTERVIEW_MAX_ANSWERS ? true : n < INTERVIEW_MIN_ANSWERS ? false : data.ends_interview;
@@ -235,7 +234,6 @@ export async function endInterview(
       toolDescription: "Submit the structured debrief for this practice interview.",
       schema: DebriefSchema,
       maxTokens: 2500,
-      temperature: 0.3,
     });
     // Keep only framework slugs that actually exist.
     const debrief: Debrief = { ...data, suggested_frameworks: data.suggested_frameworks.filter((s) => idx.frameworkBySlug.has(s)) };
